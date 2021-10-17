@@ -1,0 +1,46 @@
+body {
+  color: red;
+  background-color: aliceblue;
+}
+.name {
+  color: blue;
+  font-size: bold;
+  font-weight: 500;
+  text-align: center;
+}
+img {
+  height: auto;
+  width: 220px;
+  border: 1px solid #111111;
+  border-radius: 50%;
+}
+
+.post {
+  background: white;
+  padding: 10px;
+  border: 3px solid #e1e0;
+  margin: 10px;
+}
+.footer {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contact {
+  list-style: none;
+  margin: 5rem 0 0 5rem;
+  padding-left: 15px;
+}
+.contact li a {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: blue;
+  text-decoration: none;
+}
+.contact li a:hover {
+  color: black;
+  font-size: 1.5rem;
+}
